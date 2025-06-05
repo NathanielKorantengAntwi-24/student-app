@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  output: "export", // 🔥 Needed for static site generation
 };
 
 export default nextConfig;
